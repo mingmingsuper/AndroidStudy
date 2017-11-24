@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_notification_button">发送自定义通知</string>
+</resources>

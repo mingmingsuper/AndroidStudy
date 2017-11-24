@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ListViewTest.iml" filepath="$PROJECT_DIR$/ListViewTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcast/broadcast.iml" filepath="$PROJECT_DIR$/broadcast/broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cachedata/cachedata.iml" filepath="$PROJECT_DIR$/cachedata/cachedata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news/news.iml" filepath="$PROJECT_DIR$/news/news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissiontest/permissiontest.iml" filepath="$PROJECT_DIR$/permissiontest/permissiontest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readcontactdemo/readcontactdemo.iml" filepath="$PROJECT_DIR$/readcontactdemo/readcontactdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewtest/recyclerviewtest.iml" filepath="$PROJECT_DIR$/recyclerviewtest/recyclerviewtest.iml" />
+    </modules>
+  </component>
+</project>

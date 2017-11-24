@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CacheData</string>
+    <string name="create_database">创建数据库</string>
+    <string name="insert_data">插入数据</string>
+    <string name="update_data">更新数据</string>
+    <string name="delete_data">删除数据</string>
+    <string name="query_data">查询数据</string>
+</resources>

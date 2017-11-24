@@ -1,0 +1,1 @@
+include ':app', ':recyclerviewtest', ':news', ':broadcast', ':cachedata', ':permissiontest', ':readcontactdemo'

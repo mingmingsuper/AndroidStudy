@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="send_notification_button">发送自定义通知</string>
+    <string name="title_activity_login">Sign in</string>
+</resources>
