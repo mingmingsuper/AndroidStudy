@@ -2,6 +2,7 @@ package com.study.cachedata;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,6 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
+import com.hh.mysdk.TestActivity;
 import com.study.cachedata.database.DatabaseHelper;
 
 import java.io.BufferedReader;
@@ -23,6 +25,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private String TAG = "cacheData";
 
     private EditText mContentEdit;
     private DatabaseHelper dbHelper;
@@ -67,7 +71,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 deleteData();
                 break;
             case R.id.query_data:
-                queryData();
+//
+                Log.i(TAG, "点击测试项目按钮");
+                Intent intent = new Intent(MainActivity.this, TestActivity.class);
+                startActivity(intent);
                 break;
         }
     }

@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/broadcast" />
             <option value="$PROJECT_DIR$/cachedata" />
+            <option value="$PROJECT_DIR$/jobschedulerdemo" />
+            <option value="$PROJECT_DIR$/mysdk" />
             <option value="$PROJECT_DIR$/news" />
             <option value="$PROJECT_DIR$/permissiontest" />
             <option value="$PROJECT_DIR$/readcontactdemo" />

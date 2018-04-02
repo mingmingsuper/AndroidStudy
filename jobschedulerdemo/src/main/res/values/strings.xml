@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JobSchedulerDemo</string>
+    <string name="button_text">说话</string>
+    <string name="text_hint">请输入转换文字</string>
+</resources>
