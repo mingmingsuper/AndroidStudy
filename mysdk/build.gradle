@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 27
-        versionCode 8
-        versionName "1.0.8"
+        versionCode 10
+        versionName "1.1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -47,6 +47,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //网易云信
+    // 基础功能 (必需)
+    api 'com.netease.nimlib:basesdk:4.9.0'
+    // 音视频需要
+    api 'com.netease.nimlib:avchat:4.9.0'
+    // 聊天室需要
+    api 'com.netease.nimlib:chatroom:4.9.0'
+    // 实时会话服务需要
+    api 'com.netease.nimlib:rts:4.9.0'
+    // 音视频和互动白板服务需要
+    api 'com.netease.nimlib:nrtc:4.9.0'
 }
 
 

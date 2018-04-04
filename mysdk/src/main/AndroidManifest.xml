@@ -3,7 +3,12 @@
     package="com.hh.mysdk">
 
     <application>
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
