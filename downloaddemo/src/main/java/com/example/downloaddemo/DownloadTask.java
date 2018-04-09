@@ -83,7 +83,7 @@ public class DownloadTask extends AsyncTask<String,Integer,Integer> {
     @Override
     protected Integer doInBackground(String... params) {
         //这里执行耗时比较长的逻辑，比如下载大文件
-        publishProgress(30); //调用这个会触发onProgressUpdate方法触发从而更新进度
+        publishProgress(30); //调用这个会触发onProgressUpdate方法触发从而更新进度.
         InputStream is = null;
         RandomAccessFile savedFile = null;
         File file = null;
