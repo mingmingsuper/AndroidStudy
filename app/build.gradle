@@ -5,6 +5,8 @@ repositories {
 
     maven { url 'https://github.com/mingmingsuper/mysdk/raw/master' }
 
+    maven { url 'https://github.com/HHMedic/HHDoctorLib/raw/master'}
+
 //    maven { url 'file://Users/liumingming/Documents/AndroidOutput/mysdk' }
     mavenCentral()
 }
@@ -14,7 +16,7 @@ android {
     buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "com.study.listviewtest"
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -43,4 +45,5 @@ dependencies {
 //    implementation project(':mysdk')
     testImplementation 'junit:junit:4.12'
     implementation 'com.hh:mysdk:1.1.0'
+    implementation 'com.hhmedic.android.sdk:rongyunlib:0.0.1'
 }

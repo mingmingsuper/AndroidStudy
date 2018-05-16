@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcast/broadcast.iml" filepath="$PROJECT_DIR$/broadcast/broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/cachedata/cachedata.iml" filepath="$PROJECT_DIR$/cachedata/cachedata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databindingdemo/databindingdemo.iml" filepath="$PROJECT_DIR$/databindingdemo/databindingdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/downloaddemo/downloaddemo.iml" filepath="$PROJECT_DIR$/downloaddemo/downloaddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobschedulerdemo/jobschedulerdemo.iml" filepath="$PROJECT_DIR$/jobschedulerdemo/jobschedulerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysdk/mysdk.iml" filepath="$PROJECT_DIR$/mysdk/mysdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netconnectiondemo/netconnectiondemo.iml" filepath="$PROJECT_DIR$/netconnectiondemo/netconnectiondemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/news/news.iml" filepath="$PROJECT_DIR$/news/news.iml" />
       <module fileurl="file://$PROJECT_DIR$/permissiontest/permissiontest.iml" filepath="$PROJECT_DIR$/permissiontest/permissiontest.iml" />
       <module fileurl="file://$PROJECT_DIR$/readcontactdemo/readcontactdemo.iml" filepath="$PROJECT_DIR$/readcontactdemo/readcontactdemo.iml" />

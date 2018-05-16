@@ -1,1 +1,1 @@
-include ':app', ':recyclerviewtest', ':news', ':broadcast', ':cachedata', ':permissiontest', ':readcontactdemo', ':jobschedulerdemo', ':mysdk', ':downloaddemo'
+include ':app', ':recyclerviewtest', ':news', ':broadcast', ':cachedata', ':permissiontest', ':readcontactdemo', ':jobschedulerdemo', ':mysdk', ':downloaddemo', ':databindingdemo', ':netconnectiondemo'
