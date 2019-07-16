@@ -45,5 +45,16 @@ dependencies {
 //    implementation project(':mysdk')
     testImplementation 'junit:junit:4.12'
     implementation 'com.hh:mysdk:1.1.0'
-    implementation 'com.hhmedic.android.sdk:rongyunlib:0.0.1'
+
+    implementation 'com.hhmedic.android.sdk:nim:0.0.8'
+}
+
+repositories {
+    maven {
+        credentials {
+            username 'hh-public'
+            password 'OFGB5wX0'
+        }
+        url 'http://develop.hh-medic.com/repository/maven-public'
+    }
 }

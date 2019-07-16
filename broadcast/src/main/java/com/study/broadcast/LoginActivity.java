@@ -19,9 +19,9 @@ public class LoginActivity extends BaseActivity {
     }
 
     public void initUI() {
-        mAccountEdit = (EditText) findViewById(R.id.account);
-        mPasswordEdit = (EditText)findViewById(R.id.password);
-        Button button = (Button)findViewById(R.id.login_button);
+        mAccountEdit = findViewById(R.id.account);
+        mPasswordEdit = findViewById(R.id.password);
+        Button button = findViewById(R.id.login_button);
         button.setOnClickListener( view -> {
                 String account = mAccountEdit.getText().toString();
                 String password = mPasswordEdit.getText().toString();
